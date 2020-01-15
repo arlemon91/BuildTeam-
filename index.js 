@@ -1,0 +1,8 @@
+const inquirer  = require('./inquirer');
+
+const run = async () => {
+  const team = await inquirer.askToBuildTeam();
+  console.log(team);
+};
+
+run();
